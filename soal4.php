@@ -1,5 +1,5 @@
 <?php 
-function ganti_kata($kata,$kata_awal,$kata_ganti){
+function divideAndSort($kata,$kata_awal,$kata_ganti){
     $i =0; $hasil;
     $panjang = strlen($kata);
     while ($i < $panjang) {
@@ -14,7 +14,7 @@ function ganti_kata($kata,$kata_awal,$kata_ganti){
         $i++;
     }
 }
-echo ganti_kata('5956560159466056','a','');
+echo divideAndSort('5956560159466056','0','');
 
 
 
