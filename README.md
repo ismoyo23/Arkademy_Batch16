@@ -13,7 +13,7 @@ JSON digunakan untuk bertukar data antara aplikasi satu dengan aplikasi lainnya 
 
 Untuk soal no. 1 - no. 4 menggunakan bahasa PHP.
 
-Untuk soal no. 6 menggunakan bahasa JAVASCRIPT.
+Untuk soal no. 5 menggunakan bahasa JAVASCRIPT.
 
 Untuk soal no 6.a, querynya sebagai berikut :
 
