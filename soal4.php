@@ -1,18 +1,21 @@
 <?php 
-
-function divideAndSort($angka,$angka_awal,$angka_ganti){
+function ganti_kata($kata,$kata_awal,$kata_ganti){
     $i =0; $hasil;
-    $panjang = strlen($angka); 	// convert string to array
-    while ($i < $panjang) {		// looping using while
-        if ($angka[$i] == $angka_awal) {
-            $hasil[$i] = $angka_ganti;
-            return $hasil[$i];
+    $panjang = strlen($kata);
+    while ($i < $panjang) {
+        if ($kata[$i] == $kata_awal) {
+            $hasil[$i] = $kata_ganti;
+            echo $hasil[$i];
         }
-        else if ($angka[$i] !== $angka_awal){
-            $hasil[$i] = $angka[$i];
-            return$hasil[$i];
+        else if ($kata[$i] !== $kata_awal){
+            $hasil[$i] = $kata[$i];
+            echo $hasil[$i];
         }
         $i++;
     }
 }
-echo divideAndSort('5956560159466056','0','');
+echo ganti_kata('5956560159466056','a','');
+
+
+
+ ?>

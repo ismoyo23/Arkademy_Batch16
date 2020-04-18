@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <title>Seleksi Arkademy</title>
+  </head>
+  <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form" method="post" action="/save">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Name Chasier</label>
+            <select name="name_chasier" class="form-control data_chasier">
+               <option>Pevita Pierce</option>
+               <option>Raisa Andriana</option>
+               <option>M Ismoyo Setyonowidagdo</option>
+               <option>Joko Purwadhi</option>
+            </select>
+            <br>
+
+            <label for="exampleFormControlSelect1">Name Category</label>
+            <select name="name_category" class="form-control data_category">
+                <option>Food</option>
+                <option>Drink</option>
+            </select>
+            <br>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Price</label>
+              <input type="text" name="price" class="form-control price"  aria-describedby="emailHelp">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Menu</label>
+              <input type="text" name="menu" class="form-control menu"  aria-describedby="emailHelp">
+            </div>
+          </div>
+        
+      </div>
+      <div class="modal-footer">
+        <input type="submit" class="btn btn-warning add" value="ADD">
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="shadow-lg p-3 mb-5 bg-white rounded">
+  <div class="container">
+    <img class="navbar-brand" width="100px" src="download.png">
+    <a href="" class="btn btn-warning tambah" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" style="margin-left: 76%; color: white; width: 100px;" >Add</a>
+    </div>
+</div>
+<div class="container">
+    <!-- table -->
+    <table class="table">
+  <thead style="background-color: orange; color: white;">
+    <tr>
+      <th scope="col">Name Chasier</th>
+      <th scope="col">Category</th>
+      <th scope="col">Price</th>
+      <th scope="col">Menu</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pevita Pearce</td>
+      <td>Drink</td>
+      <td>RP. 10000</td>
+      <td>Latte</td>
+      <td><a  class="Edit" href="edit.html"><span style="color: green; font-size: 24px;" class="fa fa-fw fa-pencil-square-o"></span></a>
+  
+      <a class="delete" ><span style="color: red; font-size: 24px;" class="fa fa-fw fa-trash"></span></a></td>
+    </tr>
+
+    <tr>
+      <td>Raisa Andriana</td>
+      <td>Food</td>
+      <td>RP. 150000</td>
+      <td>Cake</td>
+      <td><a  class="Edit" href="edit.html"><span style="color: green; font-size: 24px;" class="fa fa-fw fa-pencil-square-o"></span></a>
+  
+      <a class="delete" ><span style="color: red; font-size: 24px;" class="fa fa-fw fa-trash"></span></a></td>
+    </tr>
+
+    <tr>
+      <td>Joko Purwadhi</td>
+      <td>Drink</td>
+      <td>RP. 55000</td>
+      <td>Cake</td>
+      <td><a  class="Edit" href="edit.html"><span style="color: green; font-size: 24px;" class="fa fa-fw fa-pencil-square-o"></span></a>
+  
+      <a class="delete" ><span style="color: red; font-size: 24px;" class="fa fa-fw fa-trash"></span></a></td>
+    </tr>
+
+    <tr>
+      <td>M Ismoyo Setyonowidagdo</td>
+      <td>Food</td>
+      <td>RP. 15000</td>
+      <td>Meatballs</td>
+      <td><a  class="Edit" href="edit.html"><span style="color: green; font-size: 24px;" class="fa fa-fw fa-pencil-square-o"></span></a>
+  
+      <a class="delete" ><span style="color: red; font-size: 24px;" class="fa fa-fw fa-trash"></span></a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/assets/sweetalert.js"></script>
+  </body>
+</html>
