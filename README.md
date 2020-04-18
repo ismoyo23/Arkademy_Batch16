@@ -25,18 +25,9 @@ Untuk soal no. 6.c terdapat pada folder "arkademy-crud" dan saya menggunakan Fra
 
 Preview Aplikasi di Soal Nomor 6
 
-![image](https://user-images.githubusercontent.com/63132957/79634468-b597f880-8194-11ea-8568-54dbcb5178fb.png)
-
-
-
-![image](https://user-images.githubusercontent.com/63132957/79634489-de1ff280-8194-11ea-8854-3eec96f7f4be.png)
-
-
-
-![image](https://user-images.githubusercontent.com/63132957/79634501-f728a380-8194-11ea-874f-0a5344e2cea9.png)
-
-
-![image](https://user-images.githubusercontent.com/63132957/79634518-10315480-8195-11ea-92a0-5c9f4d373e22.png)
-
-
-![image](https://user-images.githubusercontent.com/63132957/79634532-26d7ab80-8195-11ea-8a1a-c80b8ac11045.png)
+![table](https://user-images.githubusercontent.com/63132957/79634693-618e1380-8196-11ea-961a-9a8d3bfd1d54.png)
+![form add](https://user-images.githubusercontent.com/63132957/79634697-64890400-8196-11ea-9c94-8bf57541725a.png)
+![alert](https://user-images.githubusercontent.com/63132957/79634702-6b177b80-8196-11ea-8939-33776e4fb557.png)
+![alert tanya](https://user-images.githubusercontent.com/63132957/79634722-8aaea400-8196-11ea-9ec8-d271e6427359.png)
+![alert hapus](https://user-images.githubusercontent.com/63132957/79634725-8da99480-8196-11ea-9227-79c9eda9d320.png)
+![edit](https://user-images.githubusercontent.com/63132957/79634728-926e4880-8196-11ea-91f3-41cd4c08173d.png)
